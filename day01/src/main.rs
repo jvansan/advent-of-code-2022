@@ -4,7 +4,7 @@ use std::path::Path;
 
 
 fn main() {
-    let fname = "/home/jvansan/projects/advent-of-code-2022/day1/input";
+    let fname = "/home/jvansan/projects/advent-of-code-2022/day01/input";
     let mut count_vec = Vec::new();
     let mut value = 0;
     if let Ok(lines) = read_lines(fname) {
